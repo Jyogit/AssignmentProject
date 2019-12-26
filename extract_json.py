@@ -34,7 +34,7 @@ if len(sys.argv) > 2: POLLING_INTERVAL = int(sys.argv[2])
 
 def get_coordinates():
     """
-    This method opens the url & reads the jason response every POLLING_INTERVAL
+    This method opens the url & reads the json response every POLLING_INTERVAL
     seconds for maximum TIME_DURATION specified.
     Populates dictionary with incoming parameter values for following keys
         - Timestamp
